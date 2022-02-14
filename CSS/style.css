@@ -1,0 +1,102 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    line-height: 1.2;
+    background-color: #efecec;
+    margin: auto;
+    text-align: center;
+    max-width: 1000px;
+    padding: 15px;
+}
+
+.body--dark {
+    color: white;
+    background-color: #363434;
+}
+
+
+.header {
+    background-color: #62929a;
+    color: white;
+}
+
+.navigation__list {
+    margin: auto;
+    padding: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navigation__item {
+    text-align: center;
+    padding: 5px;
+    color: white;
+    display: inline-block;
+}
+
+.navigation__link {
+    color: white;
+    text-decoration: none;
+    background-color: #5c5757;
+    padding: 5px;
+    display: inline-block;
+}
+
+.navigation__link:hover {
+    background-color: #62929a
+}
+
+.navigation__link:active {
+    background-color: #e3c4a8
+}
+
+.section__header {
+    background-color: #5c5757;
+    color: white;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    overflow-x: auto;
+}
+
+.table__cell {
+    border: 3px solid #62929a;
+    padding: 20px;
+    text-align: center;
+}
+
+.table__cell:hover {
+    background-color: #62929a;
+}
+
+.section__link {
+    text-decoration: none;
+    color: #62929a;
+}
+
+.section__link:hover {
+        background-color: #5c5757;
+    color: white;
+}
+
+.line {
+    height: 2px;
+    background-color: #62929a;
+}
+
+.footer {
+    font-size: 13px;
+    text-align: center;
+}
