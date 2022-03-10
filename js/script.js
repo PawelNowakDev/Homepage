@@ -5,14 +5,17 @@
 
     welcome();
 
-    const OnChangeBackgroundClick = () => {
+    const toggleBackground = () => {
+        const body = document.querySelector(".js-body");
+        const themeName = document.querySelector(".js-themeName");
         body.classList.toggle("body--dark");
         themeName.innerText = body.classList.contains("body--dark") ? "Bright theme" : "Dark theme";
     }
 
-    let body = document.querySelector(".js-body");
-    let button = document.querySelector(".js-button");
-    let themeName = document.querySelector(".js-themeName");
+    const init = () => {
+        const button = document.querySelector(".js-button");
+        button.addEventListener("click", toggleBackground);
+    }
 
-    button.addEventListener("click", OnChangeBackgroundClick);
+    init ();
 }
