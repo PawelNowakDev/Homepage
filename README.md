@@ -7,3 +7,10 @@ https://pawelnowakdev.github.io/Homepage/
 ## Description
 
 Hello! If you want to know we better, please check my first website. Enjoy!
+
+## Technologies used
+
+- HTML
+- CSS
+- BEM
+- JavaScript
